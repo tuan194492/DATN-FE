@@ -1,0 +1,16 @@
+.card-header {
+    display: flex;
+    justify-content: space-between; /* Đẩy tiêu đề và nút ra hai bên */
+    align-items: center; /* Căn chỉnh theo chiều dọc */
+    padding: 10px; /* Thêm khoảng cách cho card-header */
+  }
+  
+  .card-header .btn {
+    margin-left: auto; /* Đẩy nút ra góc phải */
+    /* Nếu muốn nút nằm ở phía trên bên phải, không cần thêm thuộc tính nào nữa */
+  }
+  
+  .card-header .card-title {
+    margin: 0; /* Đảm bảo tiêu đề không có khoảng cách thừa */
+  }
+  
